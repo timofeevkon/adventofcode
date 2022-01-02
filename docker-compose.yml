@@ -1,0 +1,8 @@
+version: '3'
+services:
+  python.adventofcode:
+    image: python:3-alpine3.15
+    working_dir: /app
+    tty: true
+    volumes:
+      - ./app:/app
